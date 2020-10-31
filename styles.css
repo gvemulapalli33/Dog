@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/*
+* Light blue: `#75e2e6`
+* Dark blue: `#048eaa`
+* Background color: `#ffffff`
+* White text: `#ffffff`
+* Body text: `#000000`
+*/
+
+body {
+  height: 100vh;
+  line-height: 1.6;
+  width: 100%;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  text-decoration: underline;
+}
+
+.nav-list {
+  background-color: #75e2e6;
+  display: flex;
+  padding: .7em 1em;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-pages {
+  margin-left: auto;
+  display: flex;
+}
+
+.nav-pages li {
+  margin-left: 1em;
+}
+
+.nav-pages li a {
+  color: #ffffff;
+}
+
+/* freebie - if you don't like the way it was done feel free to delete, but it's not recommended you spend much time on this! */
+.hero-img {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/park.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #048eaa;
+  width: 100%;
+  height: 400px;
+  display: grid;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.main-dog {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  max-width: 100%;
+  display: block;
+  border: 2px solid #048eaa;
+}
+
+.btn {
+  border: 3px solid #048eaa;
+  background-color: #ffffff;
+  color: #048eaa;
+  padding: 0 .5em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.hero-img > * {
+  justify-self: center;
+}
+
+.about-dogs {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.dog-article {
+  width: 100%;
+  display: grid;
+}
+
+.dog-article > * {
+  justify-self: center;
+  margin-bottom: 1em;
+}
+
+.sub-title {
+  font-weight: 400;
+}
+
+.dog-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #048eaa;
+}
+
+.desc {
+  width: 60%;
+  text-align: center;
+}
+
+footer {
+  display: grid;
+  width: 100%;
+  background-color: #048eaa;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.footer-title {
+   font-weight: 400;
+}
+
+footer > * {
+  justify-self: center;
+}
+
+.social-media-icons {
+  display: flex;
+  margin: 1em;
+}
+
+.social-media-icons li {
+   margin-left: 2.5em;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: underline;
+}
